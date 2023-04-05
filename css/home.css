@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    background-color: black;
+    color: white;
+    z-index: 100;
+    width: 100%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+  
+}
+.heading {
+    position: absolute;
+    left: 32%;
+    display: flex;
+}
+.heading svg{
+    position: relative;
+    top: -1.8vw;
+    margin-right: 5px;
+    color: yellow;
+}
+.heading h1{
+    position: relative;
+    top:-2vw;
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 3vw;
+    text-shadow: 2px 2px red;
+}
+.form-1{
+    position: relative;
+    padding: 40px;
+    width: 400px;
+    display: flex;
+    font-size: 10px;
+}
+.form-1 button{
+    border: 2px;
+    color: white;
+    background-color:#0b68fa;
+}
+.navbar-items ul{
+    list-style-type: none;
+    position: relative;
+    top: 5vw;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+.navbar-items li{
+    padding: 15px;;
+    font-size: 30px;
+}
+.navbar-items a{
+     text-decoration: none;
+}
+.navbar-items a:hover{
+    text-decoration: none;
+    color:grey ;
+}
+.icons{
+    position: absolute;
+    left: 80%;
+    top: 2vw;
+    color:white;
+    
+}
+.icons svg{
+    padding-left: 15px;
+}

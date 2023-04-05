@@ -1,0 +1,37 @@
+.sec1{
+    margin: 15px 15px 15px 15px; 
+    background-color: #66ccff;
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.8), 0 8px 8px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.db-1{
+    
+    height: 300px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    display:inline-block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+.db-1::-webkit-scrollbar{
+    display: none;
+}
+.db-1 div{
+    position: relative;
+    display: inline-block;
+    margin: 1px 1px 1px 1px;
+    background-color: white;
+    border-radius: 15px;
+    width: 30%;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 100%;
+    font-size: 40px;
+    text-align: center;
+    opacity: 1;
+}

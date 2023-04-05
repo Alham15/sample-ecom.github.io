@@ -1,0 +1,62 @@
+.sec2, .sec3{
+    position: relative;
+    
+    margin: 15px 15px 15px 15px; 
+    margin-top: 30px;
+    background-color: #66ccff;
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.8), 0 8px 8px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.heading2 {
+    position: relative;
+    top: 2vw;
+    display:flex;
+}
+.heading2 h1{
+    position: relative;
+    top: 1.5vw;
+    font-size: 50px;
+}
+
+.db-2{
+    margin-top: 30px;
+    position: relative;
+    height: 300px;
+    width: 99%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding: 10px 10px 10px 10px;
+    display:inline-block;
+    white-space: nowrap;
+    
+}
+
+.db-2 div{
+    position: relative;
+    top: 2vw;
+    display: inline-block;
+    padding: 1px 1px 1px 1px;
+    background-color: white;
+    border-radius: 13px;
+    box-sizing: border-box;
+    width: 25%;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.8), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 80%;
+    font-size: 40px;
+    text-align: center;
+    opacity: 1;
+}
+.sec2 button, .sec3 button{
+    border: 3px solid black;
+    width: 100px;
+
+    align-items: center;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    left: 45%;bottom: 20px;
+    font-size: large;
+}
